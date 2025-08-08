@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techy - Web Development That Builds Your Business</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.22.9/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide-react@0.263.0/dist/umd/lucide-react.min.js"></script>
+</head>
+<body>
+  <div id="cursor-orb" class="cursor-orb"></div>
+  <canvas id="cursor-canvas" style="position: fixed; top: 0; left: 0; z-index: 999; pointer-events: none;"></canvas>
+  <div id="root"></div>
+  <script src="canvas.js"></script>
+  <script type="text/babel" src="script.js"></script>
+</body>
+</html>
